@@ -5,6 +5,8 @@ const resturnValue = setTimeout(() => {
   console.log('(2) hello there')
 }, 2000)
 
+
+
 console.log('returnValue', resturnValue)
 
 setTimeout(() => {
