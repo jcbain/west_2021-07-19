@@ -8,12 +8,27 @@
 </head>
 <body>
   <h1>A Single Car</h1>
+
   
+  
+  <a href="/cars">Go back to all cars!</a>
+
   <div style="border: 2px solid green">
     <h2>color: <%= car.color %></h2>
     <h2>model: <%= car.model %></h2>
     <h2>is manual: <%= car.isManual %></h2>
+    <form method="POST" action="/cars/<%= carId %>/delete">
+      <button type="submit">Delete Car!</button>
+    </form>
   </div>
+
+  <h2>modify car</h2>
+  <form method="POST" action="/cars/<%= carId %>">
+    <label>New color:</label>
+    <input name="color" value="<%= car.color %>"/>
+
+    <button type="submit">Update car</button>
+  </form>
   
 </body>
 </html>

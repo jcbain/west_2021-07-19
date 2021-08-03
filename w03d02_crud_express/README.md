@@ -1,12 +1,12 @@
 # W03D02 - CRUD with Express
 
 ### Objectives
-- [ ] Implement CRUD over HTTP with Express
-- [ ] Render data fro the user using EJS templates
-- [ ] Use forms to submit HTTP requests
-- [ ] Explore the Post-Redirect-Get pattern
-- [ ] Use Chrome DevTools to see requests and responses
-- [ ] Pracitice debugging Express
+- [X] Implement CRUD over HTTP with Express
+- [X] Render data fro the user using EJS templates
+- [X] Use forms to submit HTTP requests
+- [X] Explore the Post-Redirect-Get pattern
+- [X] Use Chrome DevTools to see requests and responses
+- [X] Pracitice debugging Express
 
 ### What is CRUD
 

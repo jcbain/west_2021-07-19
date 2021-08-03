@@ -8,11 +8,31 @@
 </head>
 <body>
   <h1>All the cars!</h1>
+
+  <h1>Create a new car</h1>
+  <form method="POST" action="/cars">
+    <label>color</label>
+    <input name="color"/>
+    <br />
+
+    <label>model</label>
+    <input name="model"/>
+    <br />
+
+    <label>is manaul transmission</label>
+    <input name="isManual"/>
+    <br />
+
+
+    <button type="submit">Create new car</button>
+  </form>
+
   <% for(const carKey in cars) {%>
     <div style="border: 1px solid pink">
       <h2>color: <%= cars[carKey].color %></h2>
       <h2>model: <%= cars[carKey].model %></h2>
       <h2>is manual: <%= cars[carKey].isManual %></h2>
+      <a href="/cars/<%= carKey %>">See details</a>
     </div>
   <% } %>
   
