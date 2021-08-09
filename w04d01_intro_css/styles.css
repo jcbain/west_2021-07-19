@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 46px;
+  color: green;
+  font-family: cursive;
+  text-align: center;
+  text-decoration: overline;
+}
+section {
+  background-color: blueviolet;
+}
+img {
+  width: 400px;
+}
+.pet-title {
+  color:rgb(255, 188, 80);
+  font-size: 24px;
+}
+h2.pet-title {
+  border: 2px dotted brown;
+}
+h2, p {
+  color: red;
+}
+#special-dog {
+  border: 3px solid #ff432f;
+  border-radius: 3px;
+}
+section.fav-foods  p {
+  font-size: 36px;
+}
